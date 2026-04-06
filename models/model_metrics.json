@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-03-31T06:46:12.500963+00:00",
+  "dataset": {
+    "name": "UCI Cleveland Heart Disease Dataset",
+    "records": 2003,
+    "features": 13,
+    "train_size": 1602,
+    "test_size": 401,
+    "class_distribution": {
+      "healthy": 1068,
+      "disease": 935
+    }
+  },
+  "risk_thresholds": {
+    "high": 0.75,
+    "moderate": 0.5
+  },
+  "best_model": {
+    "name": "Random Forest (Tuned)",
+    "family": "Random Forest",
+    "accuracy": 0.9277,
+    "precision": 0.9202,
+    "recall": 0.9251,
+    "f1_score": 0.9227,
+    "roc_auc": 0.9709,
+    "best_params": {
+      "max_depth": 15,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 300
+    }
+  },
+  "candidate_models": [
+    {
+      "name": "Random Forest (Tuned)",
+      "accuracy": 0.9277,
+      "precision": 0.9202,
+      "recall": 0.9251,
+      "f1_score": 0.9227,
+      "roc_auc": 0.9709,
+      "status": "deployed"
+    },
+    {
+      "name": "Logistic Regression",
+      "accuracy": 0.6808,
+      "precision": 0.6595,
+      "recall": 0.6524,
+      "f1_score": 0.6559,
+      "roc_auc": 0.7643,
+      "status": "tested"
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 0.9152,
+      "precision": 0.9048,
+      "recall": 0.9144,
+      "f1_score": 0.9096,
+      "roc_auc": 0.9707,
+      "status": "tested"
+    },
+    {
+      "name": "Decision Tree",
+      "accuracy": 0.7955,
+      "precision": 0.7778,
+      "recall": 0.7861,
+      "f1_score": 0.7819,
+      "roc_auc": 0.7949,
+      "status": "tested"
+    },
+    {
+      "name": "KNN",
+      "accuracy": 0.9077,
+      "precision": 0.936,
+      "recall": 0.861,
+      "f1_score": 0.8969,
+      "roc_auc": 0.9598,
+      "status": "tested"
+    },
+    {
+      "name": "SVM",
+      "accuracy": 0.8703,
+      "precision": 0.8689,
+      "recall": 0.8503,
+      "f1_score": 0.8595,
+      "roc_auc": 0.9431,
+      "status": "tested"
+    }
+  ]
+}
