@@ -2,6 +2,10 @@
 
 HeartGuard is a Streamlit-based machine learning app for heart disease risk prediction. It takes 13 clinical inputs, runs them through a trained Random Forest model, and presents a clear risk assessment with confidence, contributing factors, and supporting analytics.
 
+## Live Demo
+
+[Open the deployed Streamlit app](https://heartguard-app-app.streamlit.app/)
+
 ## Overview
 
 - Predicts heart disease risk from patient clinical data
